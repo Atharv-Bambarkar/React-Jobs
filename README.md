@@ -38,7 +38,7 @@ Ensure you have the following installed on your system:
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AtharvBambarkar/react-job-app.git
+   git clone https://github.com/Atharv-Bambarkar/React-Jobs.git
    cd react-job-app
 2. Install dependencies:
     ```bash
