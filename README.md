@@ -33,26 +33,29 @@ This is a **React-based Job Application App** that allows users to search for jo
 Ensure you have the following installed on your system:
 - [Node.js](https://nodejs.org/) (v16 or above)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+    or [Bun](https://bun.sh)
 
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/react-job-app.git
+   git clone https://github.com/AtharvBambarkar/react-job-app.git
    cd react-job-app
 2. Install dependencies:
     ```bash
     npm install
     # OR
     yarn install
-3.  Create a .env file in the root directory to configure environment variables (API keys endpoints):
+3. Start the development server:
     ```bash
-    REACT_APP_API_KEY=your-api-key-here
-    REACT_APP_API_URL=https://example.com/api
-4. Start the development server:
-    ```bash
-    npm start
+    npm run dev
     # OR
-    yarn start
+    bun run dev
+4.  Start Json Server
+     ```bash
+    npm run server
+    # OR
+    bun run server
+
 5. Open your browser and navigate to http://localhost:3000.
 
 ## Usage
@@ -63,19 +66,15 @@ Ensure you have the following installed on your system:
     Access your saved jobs from the "Favorites" section in the navigation menu.
 
 ## Technologies Used
-
+    
     Frontend:
         React.js (with Hooks and Context API)
         React Router for routing
         Styled Components / Tailwind CSS for styling
     
-         Backend/API:
-        Integrated with third-party job APIs (e.g., LinkedIn Jobs, Adzuna, or custom REST API).
+    Backend/API:
+        Integrated with Json Data
 
-    Tools:
-        Axios for API requests
-        React Query / Redux Toolkit for state management (if needed)
-        Jest and React Testing Library for testing
 
 ## Contributing
 
