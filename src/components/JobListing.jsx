@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { SlLocationPin } from "react-icons/sl";
+import { Link } from 'react-router-dom'
 
 const JobListing = ({job}) => {
   const [show, setShow]=useState(false);
@@ -33,12 +34,12 @@ const JobListing = ({job}) => {
                       <SlLocationPin className="inline mr-1 mb-1"/>
                       {job.location}
                     </div>
-                    <a
-                      href={`/job/${job.id}`}
+                    <Link
+                      to={`/job/${job.id}`}
                       className="h-[36px] bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-lg text-center text-sm"
                     >
                       Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div></>

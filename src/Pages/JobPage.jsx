@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
+
+import JobListings from "../components/JobListings";
 
 const JobPage = () => {
-  return (
-    <div>JobPage</div>
-  )
-}
+  return <section className="bg-blue-50 px-4 py-4">
+    <JobListings />
+  </section>;
+};
 
-export default JobPage
+export default JobPage;
