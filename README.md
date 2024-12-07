@@ -1,4 +1,4 @@
-Here's the code for the README.md file:
+
 
 # React Job Application App
 
